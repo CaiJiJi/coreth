@@ -34,10 +34,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/CaiJiJi/coreth/core/rawdb"
+	"github.com/CaiJiJi/coreth/core/state"
+	"github.com/CaiJiJi/coreth/core/types"
+	"github.com/CaiJiJi/coreth/trie"
 
 	"github.com/davecgh/go-spew/spew"
 

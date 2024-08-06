@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p/gossip"
-	"github.com/ava-labs/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/cache"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/network/p2p/gossip"
+	"github.com/CaiJiJi/avalanchego/snow"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/CaiJiJi/coreth/metrics"
 	"github.com/ethereum/go-ethereum/log"
 )
 

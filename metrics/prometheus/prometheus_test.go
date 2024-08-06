@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/CaiJiJi/coreth/metrics"
 )
 
 func TestGatherer(t *testing.T) {

@@ -30,8 +30,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/vmerrs"
+	"github.com/CaiJiJi/coreth/params"
+	"github.com/CaiJiJi/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 )

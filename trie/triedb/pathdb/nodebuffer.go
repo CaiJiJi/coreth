@@ -30,9 +30,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/CaiJiJi/coreth/core/rawdb"
+	"github.com/CaiJiJi/coreth/trie/trienode"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb"

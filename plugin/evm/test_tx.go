@@ -9,17 +9,17 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/params"
+	"github.com/CaiJiJi/avalanchego/chains/atomic"
+	"github.com/CaiJiJi/avalanchego/codec"
+	"github.com/CaiJiJi/avalanchego/codec/linearcodec"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/utils/wrappers"
+	"github.com/CaiJiJi/coreth/core/state"
+	"github.com/CaiJiJi/coreth/params"
 )
 
 type TestUnsignedTx struct {

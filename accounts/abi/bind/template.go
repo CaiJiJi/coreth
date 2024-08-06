@@ -26,7 +26,7 @@
 
 package bind
 
-import "github.com/ava-labs/coreth/accounts/abi"
+import "github.com/CaiJiJi/coreth/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -101,10 +101,10 @@ import (
 	"strings"
 	"errors"
 
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/accounts/abi/bind"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/interfaces"
+	"github.com/CaiJiJi/coreth/accounts/abi"
+	"github.com/CaiJiJi/coreth/accounts/abi/bind"
+	"github.com/CaiJiJi/coreth/core/types"
+	"github.com/CaiJiJi/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

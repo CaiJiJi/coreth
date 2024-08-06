@@ -7,8 +7,8 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/CaiJiJi/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils/units"
 
 	"github.com/stretchr/testify/assert"
 )

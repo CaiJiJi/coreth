@@ -12,11 +12,11 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/coreth/accounts/keystore"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie"
-	"github.com/ava-labs/coreth/trie/trienode"
+	"github.com/CaiJiJi/avalanchego/utils/wrappers"
+	"github.com/CaiJiJi/coreth/accounts/keystore"
+	"github.com/CaiJiJi/coreth/core/types"
+	"github.com/CaiJiJi/coreth/trie"
+	"github.com/CaiJiJi/coreth/trie/trienode"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"

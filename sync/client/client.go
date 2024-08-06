@@ -11,23 +11,23 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/ids"
 
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/sync/client/stats"
+	"github.com/CaiJiJi/coreth/params"
+	"github.com/CaiJiJi/coreth/sync/client/stats"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/CaiJiJi/avalanchego/codec"
+	"github.com/CaiJiJi/avalanchego/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/peer"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/CaiJiJi/coreth/core/rawdb"
+	"github.com/CaiJiJi/coreth/core/types"
+	"github.com/CaiJiJi/coreth/peer"
+	"github.com/CaiJiJi/coreth/plugin/evm/message"
+	"github.com/CaiJiJi/coreth/trie"
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 

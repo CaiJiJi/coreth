@@ -8,7 +8,7 @@ package testutils
 import (
 	"testing"
 
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
+	"github.com/CaiJiJi/coreth/precompile/precompileconfig"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/params"
+	"github.com/CaiJiJi/avalanchego/utils/timer"
+	"github.com/CaiJiJi/coreth/core"
+	"github.com/CaiJiJi/coreth/core/txpool"
+	"github.com/CaiJiJi/coreth/params"
 
-	"github.com/ava-labs/avalanchego/snow"
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/CaiJiJi/avalanchego/snow"
+	commonEng "github.com/CaiJiJi/avalanchego/snow/engine/common"
 	"github.com/ethereum/go-ethereum/log"
 )
 

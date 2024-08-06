@@ -27,9 +27,9 @@
 package trie
 
 import (
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/trie/triedb/hashdb"
-	"github.com/ava-labs/coreth/trie/triedb/pathdb"
+	"github.com/CaiJiJi/coreth/core/rawdb"
+	"github.com/CaiJiJi/coreth/trie/triedb/hashdb"
+	"github.com/CaiJiJi/coreth/trie/triedb/pathdb"
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 

@@ -37,15 +37,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/eth/tracers/logger"
-	"github.com/ava-labs/coreth/internal/ethapi"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/CaiJiJi/coreth/consensus"
+	"github.com/CaiJiJi/coreth/core"
+	"github.com/CaiJiJi/coreth/core/state"
+	"github.com/CaiJiJi/coreth/core/types"
+	"github.com/CaiJiJi/coreth/core/vm"
+	"github.com/CaiJiJi/coreth/eth/tracers/logger"
+	"github.com/CaiJiJi/coreth/internal/ethapi"
+	"github.com/CaiJiJi/coreth/params"
+	"github.com/CaiJiJi/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/ethdb"
@@ -61,7 +61,7 @@ const (
 	// defaultTraceReexec is the number of blocks the tracer is willing to go back
 	// and reexecute to produce missing historical state necessary to run a specific
 	// trace.
-	defaultTraceReexec = uint64(128)
+	defaultTraceReexec = uint64(1320)
 
 	// defaultTracechainMemLimit is the size of the triedb, at which traceChain
 	// switches over and tries to use a disk-backed database instead of building

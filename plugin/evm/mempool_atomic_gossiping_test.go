@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/vms/components/chain"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/secp256k1"
+	"github.com/CaiJiJi/avalanchego/vms/components/chain"
 
 	"github.com/stretchr/testify/assert"
 )

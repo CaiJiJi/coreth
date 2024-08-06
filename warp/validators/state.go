@@ -6,10 +6,10 @@ package validators
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/snow/validators"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
 )
 
 var _ validators.State = (*State)(nil)

@@ -12,23 +12,23 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/enginetest"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/network/p2p"
+	"github.com/CaiJiJi/avalanchego/snow/engine/common"
+	"github.com/CaiJiJi/avalanchego/snow/engine/enginetest"
+	"github.com/CaiJiJi/avalanchego/utils/logging"
+	"github.com/CaiJiJi/avalanchego/utils/set"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/CaiJiJi/coreth/plugin/evm/message"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/CaiJiJi/avalanchego/codec"
+	"github.com/CaiJiJi/avalanchego/codec/linearcodec"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/version"
 )
 
 var (

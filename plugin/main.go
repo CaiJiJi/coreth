@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/ulimit"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm"
+	"github.com/CaiJiJi/avalanchego/utils/logging"
+	"github.com/CaiJiJi/avalanchego/utils/ulimit"
+	"github.com/CaiJiJi/avalanchego/vms/rpcchainvm"
 
-	"github.com/ava-labs/coreth/plugin/evm"
+	"github.com/CaiJiJi/coreth/plugin/evm"
 )
 
 func main() {

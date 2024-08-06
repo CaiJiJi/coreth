@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/CaiJiJi/coreth/metrics"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ava-labs/coreth/metrics"
 )
 
 // MeteredCache wraps *fastcache.Cache and periodically pulls stats from it.

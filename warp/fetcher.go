@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/warp/aggregator"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/bls"
+	avalancheWarp "github.com/CaiJiJi/avalanchego/vms/platformvm/warp"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/warp/payload"
+	"github.com/CaiJiJi/coreth/warp/aggregator"
 )
 
 var _ aggregator.SignatureGetter = (*apiFetcher)(nil)

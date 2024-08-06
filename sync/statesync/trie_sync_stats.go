@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	utils_math "github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/coreth/metrics"
+	utils_math "github.com/CaiJiJi/avalanchego/utils/math"
+	"github.com/CaiJiJi/avalanchego/utils/timer"
+	"github.com/CaiJiJi/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

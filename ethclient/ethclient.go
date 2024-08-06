@@ -34,16 +34,16 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/accounts/abi/bind"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/interfaces"
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/coreth/accounts/abi/bind"
+	"github.com/CaiJiJi/coreth/core/types"
+	"github.com/CaiJiJi/coreth/interfaces"
+	"github.com/CaiJiJi/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
 	// Force-load precompiles to trigger registration
-	_ "github.com/ava-labs/coreth/precompile/registry"
+	_ "github.com/CaiJiJi/coreth/precompile/registry"
 )
 
 // Verify that Client implements required interfaces

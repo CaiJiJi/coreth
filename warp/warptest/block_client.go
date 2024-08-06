@@ -10,11 +10,11 @@ import (
 	"context"
 	"slices"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman/snowmantest"
-	"github.com/ava-labs/avalanchego/snow/snowtest"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/snowman"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/snowman/snowmantest"
+	"github.com/CaiJiJi/avalanchego/snow/snowtest"
 )
 
 // EmptyBlockClient returns an error if a block is requested

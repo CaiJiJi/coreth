@@ -12,17 +12,17 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/database/memdb"
+	"github.com/CaiJiJi/avalanchego/database/versiondb"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	syncclient "github.com/ava-labs/coreth/sync/client"
-	"github.com/ava-labs/coreth/sync/handlers"
-	handlerstats "github.com/ava-labs/coreth/sync/handlers/stats"
-	"github.com/ava-labs/coreth/sync/syncutils"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/CaiJiJi/coreth/core/rawdb"
+	"github.com/CaiJiJi/coreth/plugin/evm/message"
+	syncclient "github.com/CaiJiJi/coreth/sync/client"
+	"github.com/CaiJiJi/coreth/sync/handlers"
+	handlerstats "github.com/CaiJiJi/coreth/sync/handlers/stats"
+	"github.com/CaiJiJi/coreth/sync/syncutils"
+	"github.com/CaiJiJi/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 )
 

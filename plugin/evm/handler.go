@@ -4,14 +4,14 @@
 package evm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/ids"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/CaiJiJi/coreth/core/txpool"
+	"github.com/CaiJiJi/coreth/core/types"
+	"github.com/CaiJiJi/coreth/plugin/evm/message"
 )
 
 // GossipHandler handles incoming gossip messages

@@ -9,10 +9,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/set"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/coreth/precompile/contracts/warp"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/bls"
+	"github.com/CaiJiJi/avalanchego/utils/set"
+	avalancheWarp "github.com/CaiJiJi/avalanchego/vms/platformvm/warp"
+	"github.com/CaiJiJi/coreth/precompile/contracts/warp"
 )
 
 type AggregateSignatureResult struct {

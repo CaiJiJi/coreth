@@ -6,9 +6,9 @@ package warp
 import (
 	"fmt"
 
-	"github.com/ava-labs/coreth/precompile/contract"
-	"github.com/ava-labs/coreth/precompile/modules"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
+	"github.com/CaiJiJi/coreth/precompile/contract"
+	"github.com/CaiJiJi/coreth/precompile/modules"
+	"github.com/CaiJiJi/coreth/precompile/precompileconfig"
 
 	"github.com/ethereum/go-ethereum/common"
 )

@@ -30,11 +30,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/CaiJiJi/coreth/consensus"
+	"github.com/CaiJiJi/coreth/core/state"
+	"github.com/CaiJiJi/coreth/core/types"
+	"github.com/CaiJiJi/coreth/params"
+	"github.com/CaiJiJi/coreth/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

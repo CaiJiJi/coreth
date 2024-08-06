@@ -7,10 +7,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/peer"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/coreth/peer"
 
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/CaiJiJi/avalanchego/version"
 )
 
 var _ peer.NetworkClient = &mockNetwork{}

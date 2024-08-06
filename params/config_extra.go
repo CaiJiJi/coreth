@@ -8,8 +8,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/coreth/utils"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/coreth/utils"
 )
 
 // UpgradeConfig includes the following configs that may be specified in upgradeBytes:

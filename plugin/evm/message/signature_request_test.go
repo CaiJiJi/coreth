@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/bls"
 	"github.com/stretchr/testify/require"
 )
 
